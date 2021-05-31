@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#fff</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#21bf73</color>
+    <color name="bg_screen2">#e32249</color>
+    <color name="bg_screen3">#5edfff</color>
+    <color name="bg_screen4">#1abc9c</color>
+    <color name="grey_light">#A8A8AC</color>
+    <color name="gen_black">#000</color>
+    <color name="myTheme">#654062</color>
+    <color name="myColor1">#1b1c25</color>
+    <color name="tryColor">#00fff6</color>
+    <color name="tryColor1">#ffd31d</color>
+    <color name="barColor">#05dfd7</color>
+    <color name="backGroundColor">#FFC55C</color>
+</resources>

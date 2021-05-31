@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <include layout="@layout/app_bar_with_back"
+        android:id="@+id/appBar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#c3edea"
+                android:id="@+id/aboutUs"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/merienda_one"
+                    android:textSize="30dp"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:textColor="@color/myTheme"
+                    />
+
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutUs"
+                android:layout_margin="15dp"
+                android:elevation="40dp"
+                android:id="@+id/firstPara"
+                app:cardCornerRadius="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pathak Printing Press is one of the pioneering organizations from Hooghly (West Bengal) that are engaged in offering high-quality products and printing services. We are an eminent manufacturer and supplier of products like writing notebooks, student diary, new year diary, self ink stamp, wall calendar, digital printed invitation cards, and marriage invitation cards. Right from school stationery printing services to office stationery printing services to bank ledger printing services to prospectus printing services to many more, we offer different kinds of printing services that cater to the need of individuals as well as corporate clients. We manufacture finely finished products using premium grade materials, which we procure after getting satisfied for their quality and performance."
+                        android:lineSpacingExtra="2dp"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstPara"
+                android:layout_margin="15dp"
+                android:elevation="40dp"
+                android:id="@+id/secondPara"
+                app:cardCornerRadius="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The establishment year of Pathak Print Pack is 1992, and the company has gradually attained a revered position in the market by serving products and services that comply with Indian quality standards. The efforts of brainy Proprietor i.e. Mr. Ajay Kr. Pathak led us to achieve formidable success over a period of time."
+                        android:lineSpacingExtra="2dp"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/secondPara"
+                android:layout_margin="15dp"
+                android:elevation="40dp"
+                android:id="@+id/thirdPara"
+                app:cardCornerRadius="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our Team\nWe have a team of dynamic professionals that look after each and every process, right from manufacturing/printing to delivery, with sheer commitment and resourcefulness. Right from product designers to printing machine operators to shipment team members, everyone perform their duties up to the level of excellence."
+                        android:lineSpacingExtra="2dp"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "977261437330",
+    "firebase_url": "https://ecommerce-d6fcb.firebaseio.com",
+    "project_id": "ecommerce-d6fcb",
+    "storage_bucket": "ecommerce-d6fcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977261437330:android:eafbdba5bbd328cdab214b",
+        "android_client_info": {
+          "package_name": "com.simpad.pathaknotebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977261437330-tr1auroaq7ib75pd129mslu16ar4kkmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpad.pathaknotebook",
+            "certificate_hash": "f10c47f990a8563295c82d24ff1a70b76e3fa046"
+          }
+        },
+        {
+          "client_id": "977261437330-n6k0k15ohd4a1f2cmil1i9dl93b0t4ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwJuqq_ZVS73-b3BqpLVmV0qBuX80svBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977261437330-n6k0k15ohd4a1f2cmil1i9dl93b0t4ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

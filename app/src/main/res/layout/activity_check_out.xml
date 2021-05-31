@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+        <include layout="@layout/app_bar_with_back"
+            android:id="@+id/appBar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/appBar"
+            android:id="@+id/payment_processing"
+            android:background="@color/barColor"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+
+            <FrameLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/shape_completed"
+                android:layout_centerVertical="true"
+                android:id="@+id/personalInfo"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:id="@+id/detailsNumber"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="10sp"
+                        android:autoSizeMaxTextSize="10sp"
+                        android:textColor="@color/white"
+                        android:visibility="invisible"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_check_24"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/detailsStatus"
+                        />
+
+                </RelativeLayout>
+
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/personalInfo"
+                android:background="#00ff00"
+                android:id="@+id/linePersonal"
+                />
+            <FrameLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/linePersonal"
+                android:id="@+id/orderSummary"
+                android:background="@drawable/shape_current"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="10sp"
+                        android:autoSizeMaxTextSize="10sp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        />
+
+                </RelativeLayout>
+
+            </FrameLayout>
+
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/orderSummary"
+                android:background="#84a9ac"
+                android:id="@+id/lineOrder"
+                />
+            <FrameLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/lineOrder"
+                android:id="@+id/payment"
+                android:background="@drawable/shape_incomplete"
+                ><RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="10sp"
+                    android:autoSizeMaxTextSize="10sp"
+                    android:textColor="@color/white"
+                    />
+
+            </RelativeLayout>
+            </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details"
+                    android:layout_below="@id/personalInfo"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/details"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Summary"
+                    android:layout_below="@id/orderSummary"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:textStyle="bold"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment"
+                    android:layout_below="@id/payment"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textStyle="bold"
+
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/payment_processing"
+            android:id="@+id/PaymentNavHost"
+            app:navGraph="@navigation/nav_payment_process"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            app:defaultNavHost="true"
+            />
+
+
+    </RelativeLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Print Pathak</string>
+    <string name="next">next</string>
+    <string name="skip">skip</string>
+    <string name="Finish">finish</string>
+    <string name="start">start</string>
+    <string name="slide_1_title">Fast Delivery</string>
+    <string name="slide_1_desc">No matter how far you are!</string>
+
+    <string name="slide_2_title">Smooth Payments</string>
+    <string name="slide_2_desc">With various pay options , you can easily pay in a minute!</string>
+
+    <string name="slide_3_title">Cheap Rates</string>
+    <string name="slide_3_desc">Save money here!</string>
+
+    <string name="slide_4_title">Amazing Quality</string>
+    <string name="slide_4_desc">Premium Quality. Guaranteed.!</string>
+
+    <string name="noconnection">Kindly connect to a WIFI network or enable Mobile Data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="no_pages">
+        <item>No. Of Pages</item>
+        <item>100 Pages IC</item>
+        <item>164 Pages IC</item>
+        <item>228 Pages IC</item>
+        <item>324 Pages IC</item>
+    </string-array>
+    <string-array name="page_design">
+        <item>Page Design</item>
+        <item>SL</item>
+        <item>DL</item>
+        <item>4L</item>
+        <item>BSL</item>
+        <item>B4L</item>
+        <item>3 in 1</item>
+        <item>SLP</item>
+        <item>Plain</item>
+        <item>Check</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
