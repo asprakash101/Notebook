@@ -2,6 +2,50 @@
 
 <B>This E-com app is an app which I built natively on android studio and used Firebase for the data base and authentication.</B>
 
+## ScreenShots of the Ecommerce Application
+<table>
+  <tr>
+    <td>Starting App</td>
+    <td>Onboarding Screen -1</td>
+    <td>Onboarding Screen -2</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/startingActivity.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/onboardingScreen1.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/onboardingscreen2.jpg" width="250px"></td>
+  </tr>
+  <tr>
+    <td>Login</td>
+    <td>Home Page</td>
+    <td>Home Page Bottom</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/loginPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/HomePage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/homePage2.jpg" width="250px"></td>
+  </tr>
+  <tr>
+    <td>Navigation Drawer</td>
+    <td>Whish List</td>
+    <td>Cart</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/NavigationDrawer.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/whishlistPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/cartPage.jpg" width="250px"></td>
+  </tr>
+  <tr>
+    <td>Delivery Details</td>
+    <td>Summary</td>
+    <td>Payment</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/deliveryDetailsPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/summaryPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/paymentPage.jpg" width="250px"></td>
+  </tr>
+</table>
+
 
 ## Built With 🛠
 - [Java](https://www.java.com/en/) - Most widely used programming language for Android development.
