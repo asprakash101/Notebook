@@ -1,5 +1,8 @@
 # Ecommerce Application In Java Using Firebase
-
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)
+</br>
 <B>This E-com app is an app which I built natively on android studio and used Firebase for the data base and authentication.</B>
 
 ## ScreenShots of the Ecommerce Application
@@ -35,13 +38,23 @@
     <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/cartPage.jpg" width="250px"></td>
   </tr>
   <tr>
+    <td>Product Page</td>
+    <td>Product Page Bottom</td>
     <td>Delivery Details</td>
-    <td>Summary</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/itemPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/itemPageBottom.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/deliveryDetailsPage.jpg" width="250px"></td>
+  </tr>
+  <tr>
+    <td>DSummary</td>
+    <td>Summary Page Bottom</td>
     <td>Payment</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/deliveryDetailsPage.jpg" width="250px"></td>
     <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/summaryPage.jpg" width="250px"></td>
+    <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/summaryPageBottom.jpg" width="250px"></td>
     <td><img src="https://github.com/udit512/NoteBookEcommerce/blob/master/photos/paymentPage.jpg" width="250px"></td>
   </tr>
 </table>
